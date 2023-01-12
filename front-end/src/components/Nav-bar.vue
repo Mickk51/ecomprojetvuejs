@@ -2,7 +2,7 @@
 <div class="nav-container">
     <div class="bg-container"><img class="bg2" src="../assets/bg2.webp" alt=""></div>
   <nav>
-    <li>Acceuil</li>
+    <li>Acceuill</li>
     <li>Items</li>
     <li>Nouveauté</li>
     <li>Mon compte</li>
