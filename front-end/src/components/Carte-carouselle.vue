@@ -4,7 +4,7 @@
       <p class="nom">Baume à barbe Corsaire</p>
       <img class="img-item" src="../assets/baume.png" alt="" />
       <p class="description">
-        Ce baume vous assurera une hydratation optimale avec son parfum frais
+        Ce baume vous assurera une hydratation optimale avec son parfum frais !
       </p>
       <p class="prix-item">15 €</p>
     </div>
