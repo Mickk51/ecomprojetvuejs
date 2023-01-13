@@ -4,7 +4,6 @@
         <NavBar />
         <afficheAcceuil />
         <BestSellers />
-        <p>heloo</p>
     </div>
 </template>
 
