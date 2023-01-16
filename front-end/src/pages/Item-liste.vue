@@ -1,10 +1,19 @@
 <template>
-  <h1>liste des produits</h1>
+<div class="liste-produit-container">
+  <MenuFiltrant />
+  <ItemCard />
+  </div>
 </template>
 
 <script>
-export default {
+import MenuFiltrant from '../components/menu-filtrant.vue'
+import ItemCard from "../components/Item-Card.vue"
 
+export default {
+  components: {
+    MenuFiltrant,
+    ItemCard
+  }
 }
 </script>
 

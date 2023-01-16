@@ -18,7 +18,6 @@ export default {
     AfficheAcceuil,
     BestSellers,
     aPropos,
-    
   }
 }
 </script>

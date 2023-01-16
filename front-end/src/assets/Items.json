@@ -2,7 +2,7 @@
     {
         "id": "#00001",
         "nom": "produit1",
-        "image": "/baume.png",
+        "image": "@/assets/baume.png",
         "description": "super produit !",
         "categorie": "baume",
         "prix": 15,
