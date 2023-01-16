@@ -7,8 +7,8 @@
       </div>
     </form>
     <div class="icon-user-container">
-      <img  class="icon-user" src="@/assets/icon-connexion.png" alt="">
-      <img class="icon-user" src="@/assets/icon-panier.png" alt="">
+      <router-link to="/Connexion"><img  class="icon-user" src="@/assets/icon-connexion.png" alt=""></router-link>
+      <router-link to="/Panier"><img class="icon-user" src="@/assets/icon-panier.png" alt=""></router-link>
     </div>
   </div>
 </template>

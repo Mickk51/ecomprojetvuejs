@@ -2,11 +2,11 @@
 <div class="nav-container">
     <div class="bg-container"><img class="bg2" src="../assets/bg2.webp" alt=""></div>
   <nav>
-    <li>Acceuill</li>
-    <li>Items</li>
-    <li>Nouveauté</li>
-    <li>Mon compte</li>
-    <li>Panier</li>
+    <router-link class="link" to="/"><li>Acceuill</li></router-link>
+    <router-link class="link" to="Produits"><li>Items</li></router-link>
+    <router-link class="link" to="About"><li>A propos</li></router-link>
+    <router-link class="link" to="/Connexion"><li>Mon compte</li></router-link>
+    <router-link class="link" to="/Panier"><li>Panier</li></router-link>
   </nav>
   <div class="bg-container2"><img class="bg2" src="../assets/bg2.webp" alt=""></div>
   </div>
@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style>
+    a {
+        text-decoration: none;
+        color: black;
+    }
     li:hover {
         font-size: 2.2em;
         background: rgba(255, 255, 255, 0.355);

@@ -1,24 +1,24 @@
 <template>
     <div>
-        <TopBar />
-        <NavBar />
         <afficheAcceuil />
         <BestSellers />
+        <hr>
+        <aPropos />
+        <hr>
     </div>
 </template>
 
 <script>
-    import TopBar from "@/components/Top-bar.vue"
     import AfficheAcceuil from '@/components/Affiche-acceuil.vue'
-    import NavBar from '@/components/Nav-bar.vue'
     import BestSellers from "@/components/Best-sellers.vue"
+    import aPropos from '@/components/A-propos.vue'
 
 export default {
   components: {
-    TopBar,
     AfficheAcceuil,
-    NavBar,
-    BestSellers
+    BestSellers,
+    aPropos,
+    
   }
 }
 </script>
@@ -27,5 +27,9 @@ export default {
   .best-sellers {
     border: 1px solid;
 
+  }
+  hr {
+    width: 80%;
+    margin: 100px auto;
   }
 </style>

@@ -1,0 +1,35 @@
+[
+    {
+        "id": "#00001",
+        "nom": "produit1",
+        "image": "/baume.png",
+        "description": "super produit !",
+        "categorie": "baume",
+        "prix": 15,
+        "enStock": "true"
+    },
+    {
+        "id": "#00002",
+        "nom": "produit2",
+        "description": "good !",
+        "categorie": "huile",
+        "prix": 10,
+        "enStock": "true"
+    },
+    {
+        "id": "#00003",
+        "nom": "produit3",
+        "description": "pas mal",
+        "categorie": "accessoire",
+        "prix": 30,
+        "enStock": "true"
+    },
+    {
+        "id": "#00004",
+        "nom": "produit4",
+        "description": "luxe",
+        "categorie": "coffret",
+        "prix": 80,
+        "enStock": "true"
+    }
+]

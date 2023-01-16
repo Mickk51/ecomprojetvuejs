@@ -25,7 +25,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     @keyframes zoom {
     0% {
     transform: scale(1, 1);

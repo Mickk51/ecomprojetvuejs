@@ -3,15 +3,19 @@
         <h3>Nos meilleur produits, pour vous :</h3>
         <div class="carousel">
             <div class="carte"><CarteCarouselle /></div>
-            <div class="carte"><CarteCarouselle /></div>
-            <div class="carte"><CarteCarouselle /></div>
         </div>
     </div>
 </template>
 
 <script>
 import CarteCarouselle from './Carte-carouselle.vue'
+import items from '../assets/Items.json'
 export default {
+        data : () => {
+      return {
+        items
+      }
+    },
     components: {
         CarteCarouselle
     }
@@ -19,8 +23,8 @@ export default {
 </script>
 
 
-<style>
-.carousel {
+<style scoped>
+.carte {
     display: flex;
     justify-content: space-around;
 }
