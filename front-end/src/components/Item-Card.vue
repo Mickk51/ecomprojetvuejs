@@ -29,5 +29,14 @@ export default {
 <style scoped>
     .card-container {
         border: 1px solid;
+        overflow: hidden;
+    }
+    .bg {
+        position: absolute;
+        width: inherit;
+    }
+    .bg-container {
+        border: 2px solid;
+        width: 80%;
     }
 </style>
