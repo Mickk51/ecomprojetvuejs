@@ -29,9 +29,11 @@ export default {
 
 <style scoped>
   .liste-produit-container {
+    margin: 50px;
   }
   .liste-items {
     display: grid;
+    margin-top: 50px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
   }
