@@ -1,13 +1,17 @@
 <template>
-  <h1>A propos</h1>
+        <aPropos />
 </template>
 
 <script>
-export default {
+    import aPropos from '../components/A-propos.vue'
 
+export default {
+  components : {
+    aPropos,
+  }
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>
