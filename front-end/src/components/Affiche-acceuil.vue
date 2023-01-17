@@ -108,26 +108,28 @@ export default {
         border: 5px double;
         border-radius: 500px;
         position: absolute;
-        top: 90px;
-        left: 170px;
-        width: 300px;
-        height: 300px;
+        top: 50px;
+        left: 5%;
+        width: 450px;
+        height: 450px;
         box-shadow: 0px 0px 100px rgb(0, 0, 0);
         backdrop-filter: blur(15px);
         z-index: 2;
 
     }
     .logo-header {
-        width: 180px;
+        width: 300px;
         height: auto;
         position: relative;
-        top: 66px;
-        left: 60px;
+        top: 86px;
+        left: 80px;
     }
     #affiche-container {
-        height: 500px;
+        height: 580px;
         overflow: hidden;
         position: relative;
+        width: 95%;
+        margin: auto;
     }
     #affiche {
         width: 110%;
@@ -135,7 +137,7 @@ export default {
         margin: auto;
         text-align: center;
         position: absolute;
-        top: -200px;
+        top: -220px;
         filter: opacity(90%) sepia(20%);
     }
 </style>

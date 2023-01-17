@@ -40,6 +40,7 @@ export default {
     .nav-container {
         margin: auto;
         height: 50px;
+        width: 95%;
         line-height: 50px;
         overflow: hidden;
         margin-bottom: 20px;

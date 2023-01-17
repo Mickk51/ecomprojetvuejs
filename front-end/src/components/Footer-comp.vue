@@ -52,6 +52,7 @@ export default {
         font-size: 1em;
         margin: 20px auto;
         font-weight: normal;
+        list-style-type: none;
     }
     .titre-liste {
         font-size: 1.8em;
