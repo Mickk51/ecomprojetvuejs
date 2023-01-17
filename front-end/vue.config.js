@@ -5,6 +5,7 @@ module.exports = defineConfig({
 
 const publicPath =
   process.env.NODE_ENV === "production" ? "/ecomprojetvuejs/" : "/";
+
 module.exports = {
   publicPath: publicPath,
 };
