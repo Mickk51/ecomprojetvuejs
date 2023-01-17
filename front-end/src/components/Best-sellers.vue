@@ -2,13 +2,15 @@
     <div>
         <h3>Nos meilleur produits, pour vous :</h3>
         <div class="carousel">
-            <div class="carte"><CarteCarouselle /></div>
+            <Item-Card />
+            <Item-Card />
+            <Item-Card />
         </div>
     </div>
 </template>
 
 <script>
-import CarteCarouselle from './Carte-carouselle.vue'
+import ItemCard from './Item-Card.vue'
 import items from '../assets/Items.json'
 export default {
         data : () => {
@@ -17,16 +19,19 @@ export default {
       }
     },
     components: {
-        CarteCarouselle
+        ItemCard
     }
 }
 </script>
 
 
 <style scoped>
-.carte {
-    display: flex;
-    justify-content: space-around;
+.carousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 85%;
+    margin: auto;
+    gap: 30px;
 }
 h3 {
     text-align: center;

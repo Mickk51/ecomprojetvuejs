@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
   .search-bar-container {
     margin-top: 5px;
@@ -47,6 +47,8 @@ export default {
     margin: 5px 0px 5px 0px;
     display: flex;
     justify-content: space-between;
+    width: 95%;
+    margin: auto;
   }
   .icon-loupe {
     width: 30px;

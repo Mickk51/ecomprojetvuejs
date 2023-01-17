@@ -1,7 +1,17 @@
 <template>
 <div class="liste-produit-container">
   <MenuFiltrant />
-  <ItemCard />
+  <div class="liste-items">
+    <ItemCard />
+    <ItemCard />
+    <ItemCard />
+    <ItemCard />
+    <ItemCard />
+    <ItemCard />
+    <ItemCard />
+    <ItemCard />
+  </div>
+
   </div>
 </template>
 
@@ -17,6 +27,12 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  .liste-produit-container {
+  }
+  .liste-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
 </style>
