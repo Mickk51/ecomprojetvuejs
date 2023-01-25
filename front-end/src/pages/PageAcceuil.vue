@@ -1,7 +1,7 @@
 <template>
     <div>
-        <afficheAcceuil />
-        <BestSellers />
+        <!-- <router-link to="/pagetest"><button>Test page</button></router-link> -->
+        <BanniereHome />
         <hr>
         <aPropos />
         <hr>
@@ -9,26 +9,17 @@
 </template>
 
 <script>
-    import AfficheAcceuil from '@/components/Affiche-acceuil.vue'
-    import BestSellers from "@/components/Best-sellers.vue"
+  import BanniereHome from "@/components/Banniere-home.vue"
     import aPropos from '@/components/A-propos.vue'
 
 export default {
   components: {
-    AfficheAcceuil,
-    BestSellers,
     aPropos,
+    BanniereHome
   }
 }
 </script>
 
 <style scoped>
-  .best-sellers {
-    border: 1px solid;
 
-  }
-  hr {
-    width: 80%;
-    margin: 100px auto;
-  }
 </style>

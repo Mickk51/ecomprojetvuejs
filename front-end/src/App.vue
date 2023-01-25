@@ -1,24 +1,37 @@
 <template>
   <div>
-    <TopBar />
+    <header>
+      <TopNavBar />
+    </header>
+    <main>
+      <router-view />
+    </main>
+    <footer>
+    </footer>
+  </div>
+  
+  
+    <!-- <TopBar />
     <NavBar />
     <router-view />
-    <Footer />
-  </div>
+    <Footer /> -->
 </template>
 
 <script>
 
-  import NavBar from "./components/Nav-bar.vue"
-  import TopBar from "./components/Top-bar.vue"
-  import Footer from "./components/Footer-comp.vue"
+import TopNavBar from "./components/Top-nav-bar.vue"
+// import NavBar from "./components/Nav-bar.vue"
+// import TopBar from "./components/Top-bar.vue"
+// import Footer from "./components/Footer-comp.vue"
+
 
 export default {
   name: 'App',
   components: {
-    NavBar,
-    TopBar,
-    Footer
+    TopNavBar,
+    // NavBar,
+    // TopBar,
+    // Footer
   }
 }
 </script>

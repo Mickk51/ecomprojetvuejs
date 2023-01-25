@@ -18,8 +18,9 @@ export default {
 }
 </script>
 
-<style>
-    a {
+<style scoped>
+
+    .link {
         text-decoration: none;
         color: black;
     }
@@ -38,9 +39,9 @@ export default {
     }
 
     .nav-container {
-        margin: auto;
-        height: 50px;
+        margin: 20px auto;
         width: 95%;
+        height: 50px;
         line-height: 50px;
         overflow: hidden;
         margin-bottom: 20px;

@@ -1,20 +1,18 @@
 <template>
-        <!-- <div v-for="(item, index) in items" :key="index" class="items"> -->
-    <div class="card-container">
+    <div class="card-container" v-for="item in items" v-bind:key="item.index">
         <div class="bg-contain">
-            <img class="bg" src="../assets/bg2.webp" alt="">
+            <img class="bg" src="../assets/bg2.webp" alt="image du produit">
         </div>
-        <p class="nom-produit">produit </p>
+        <p class="nom-produit">{{item.nom}}</p>
         <div class="card-text">
-                <img class="img-item" src="../assets/baume.png" alt="">                
-            <p class="description-produit">dzdzdd</p>
-            <p class="prix-produit">prix</p>
+                <router-link to="FicheProduit"><img class="img-item" v-bind:src="item.image" alt=""></router-link>                
+            <p class="description-produit">{{ item.description }}</p>
+            <p class="prix-produit">{{ item.prix }} €</p>
             <div class="btn">
-                <p class="voir-plus">En savoir plus...</p> <img class="ajouter-panier"  src="../assets/add-panier.png" alt="">
+                <router-link class="link" to="FicheProduit"><p class="voir-plus">Voir plus...</p></router-link><img class="ajouter-panier"  src="../assets/add-panier.png" alt="">
             </div>
         </div>
     </div>
-        
 </template>
 
 <script>
@@ -23,15 +21,20 @@ import items from '../assets/Items.json'
 export default {
     data() {
         return {
-            items
+            items,
         }
-    },
+    }
 }
 </script>
 
 <style scoped>
+    .link {
+        text-decoration: none;
+        color: black;
+    }
     .img-item {
-        max-width: 90%;
+        width: 80%;
+        max-height: 250px;
         margin: auto;       
     }
     .ajouter-panier {
@@ -46,7 +49,7 @@ export default {
         align-items: center;
     }
     .voir-plus {
-        width: 50%;
+        width: 100%;
         background-image: url("../assets/bg2.webp");
         padding: 10px 20px;
         border-radius: 50px;
