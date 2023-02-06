@@ -1,0 +1,26 @@
+[
+    {
+        "userId": "1",
+        "email": "jojo@gmail.com",
+        "review": "good product and funly to DIY dzazd dziadzj zdoiado zdoiazd azdoi zdoia do zjd.d zadoiad zdaoizdajdzaodiajdazodiazjo product and funly to DIY dzazd dziadzj zdoiado zdoiazd azdoi zdoia do zjd.dproduct and funly to DIY dzazd dziadzj zdoiado zdoiazd azdoi zdoia do zjd.dproduct and funly to DIY dzazd dziadzj zdoiado zdoiazd azdoi zdoia do zjd.dproduct and funly to DIY dzazd dziadzj zdoiado zdoiazd azdoi zdoia do zjd.dproduct and funly to DIY dzazd dziadzj zdoiado zdoiazd azdoi zdoia do zjd.dproduct and funly to DIY dzazd dziadzj zdoiado zdoiazd azdoi zdoia do zjd.d",
+        "rating": 4
+    },
+    {
+        "userId": "2",
+        "email": "bernard@gmail.com",
+        "review": "great job and fast receve !",
+        "rating": 5
+    },
+    {
+        "userId": "3",
+        "email": "momo@gmail.com",
+        "review": "I like it ! Nice quality and very good buisiness!!",
+        "rating": 3
+    },
+    {
+        "userId": "4",
+        "email": "abdoul@gmail.com",
+        "review": "I dont receive my command..",
+        "rating": 1
+    }
+]

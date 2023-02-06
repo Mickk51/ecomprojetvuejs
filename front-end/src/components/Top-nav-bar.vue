@@ -1,10 +1,7 @@
 <template>
 <header>
-   <nav class="navbar navbar-expand-md p-0">
+   <nav class="navbar navbar-expand-md p-0 fixed-top">
         <div class="bgshadow container-fluid">
-            <a class="navbar-brand" href="#">
-                <img class="logo" src="../assets/logo2.png" alt="">
-            </a>  
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,19 +29,18 @@
 
 <script>
 export default {
-
+    methods: {
+        
+    }
 }
 </script>
 
 <style scoped>
+    .navbar {
+        background-color: #e5e5dbcf;
+    }
     .bgshadow {
         box-shadow: 1px 1px 10px white;
-
     }
-    .logo {
-        position: absolute;
-        right: 50%;
-        max-width: 150px;
-        transform: translateX(75px);
-   }
+    
 </style>

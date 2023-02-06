@@ -1,16 +1,16 @@
 [
     {
-        "id": "#00001",
+        "id": 1,
         "nom": "Baume a tonton",
         "image": "https://www.grenadine-verte.com/855-large_default/baume-a-barbe-premium-bio-90ml.jpg",
         "description": "super produit !",
         "categorie": "baume",
         "prix": 15,
         "enStock": true,
-        "note": 41
+        "note": ""
     },
     {
-        "id": "#00002",
+        "id": 2,
         "nom": "Huile du druide",
         "image": "https://www.ebcosmetique.com/4178-large_default/immortal-nyc-huile-pour-remplir-la-barbe.jpg",
         "description": "good !",
@@ -20,7 +20,7 @@
         "note": 35
     },
     {
-        "id": "#00003",
+        "id": 3,
         "nom": "Brosse",
         "image": "https://media.barb-art.fr/127-thickbox_default/brosse-a-barbe-barb-art-100-naturel.jpg",
         "description": "pas mal",
@@ -30,7 +30,7 @@
         "note": 45
     },
     {
-        "id": "#00004",
+        "id": 4,
         "nom": "Coffret du daron",
         "image": "https://www.mencorner.com/media/produits/lames-et-tradition/img/lames-et-tradition-coffret-soin-de-la-barbe_177004_680x680.jpg",
         "description": "luxe",
@@ -40,7 +40,7 @@
         "note": 46
     },
     {
-        "id": "#00005",
+        "id": 5,
         "nom": "Peigne en corne",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqs5VD6X5WyLbKde4I12kUcKN9sDEvoBha2w&usqp=CAU",
         "description": "luxe",
@@ -50,7 +50,7 @@
         "note": 38
     },
     {
-        "id": "#00006",
+        "id": 6,
         "nom": "Peigne en bois",
         "image": "https://labarbeparfaite.fr/wp-content/uploads/2016/11/EQLEF-Barbe-peigne-en-bois-Bois-de-santal-rouge-pas-de-peigne-la-main-statique-dents-larges-bois-de-peigne-moustache-0.jpg",
         "description": "luxe",
@@ -60,7 +60,7 @@
         "note": 34
     },
     {
-        "id": "#00007",
+        "id": 7,
         "nom": "Peigne en resigne",
         "image": "https://www.artdubarbier.com/8937-list/peigne-a-barbe-solomon-s-beard-.jpg",
         "description": "peigne en resigne de moyenne qualité",
@@ -70,7 +70,7 @@
         "note": 28
     },
     {
-        "id": "#00008",
+        "id": 8,
         "nom": "Coffret du patron",
         "image": "https://m.media-amazon.com/images/I/91R6Sr+INXS._AC_SY355_.jpg",
         "description": "Le top du trop, si tes le boss !",
@@ -80,17 +80,17 @@
         "note": 48
     },
     {
-        "id": "#00009",
+        "id": 9,
         "nom": "Baume du chaton",
         "image": "https://www.grenadine-verte.com/855-large_default/baume-a-barbe-premium-bio-90ml.jpg",
         "description": "senteur incroyable et hydratation au max !!",
         "categorie": "baume",
         "prix": 12,
         "enStock": true,
-        "note": 4
+        "note": 38
     },
     {
-        "id": "#00010",
+        "id": 10,
         "nom": "Baume du tigre",
         "image": "https://www.grenadine-verte.com/855-large_default/baume-a-barbe-premium-bio-90ml.jpg",
         "description": "senteur incroyable et hydratation au max pour les gros barbu !!",
@@ -100,7 +100,7 @@
         "note": 44
     },
     {
-        "id": "#00011",
+        "id": 11,
         "nom": "Huile du mage noir",
         "image": "https://www.ebcosmetique.com/4178-large_default/immortal-nyc-huile-pour-remplir-la-barbe.jpg",
         "description": "une senteur sombre et boisé ",
