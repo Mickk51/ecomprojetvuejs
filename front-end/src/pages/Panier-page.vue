@@ -1,5 +1,5 @@
 <template>
-  <h1>panier</h1>
+  <h1>panier :)</h1>
 </template>
 
 <script>
