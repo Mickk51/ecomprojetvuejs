@@ -104,7 +104,7 @@
             </div>
           </div>
         </div>
-        <h3>Total du panier : {{ cartTotalAmound }} €</h3>
+        <h3>Total du panier : {{ cartTotalAmound }} €€</h3>
         <p>Nb article :</p>
         <button>Passer commande</button>
       </div>

@@ -1,7 +1,7 @@
 .DS_Store
 node_modules
 # supprimer /dist pour mise en prod !!
-#/dist
+/dist
 
 # local env files
 .env.local
