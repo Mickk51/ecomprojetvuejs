@@ -1,5 +1,5 @@
 <template>
-<div class="page-connexion">
+<div class="page-connexion-template">
     <SeConnecter />
   <CreerCompte />
 </div>
@@ -18,9 +18,9 @@ export default {
 </script>
 
 <style scoped>
-  .page-connexion {
+  .page-connexion-template {
     display: flex;
     justify-content: space-around;
-    margin: 80px 250px;
+    margin: 250px 200px;
   }
 </style>

@@ -1,8 +1,10 @@
 <template>
     <div class="creer-compte">
         <h2 class="creer-titre">Pas encore inscrit ?</h2>
-        <div class="separation"></div>                   
-        <input id="btn-connexion" type="submit" value="Creer un compte">
+        <div class="separation"></div> 
+        <router-link to="/create-account-form">
+            <input id="btn-connexion" type="submit" value="Creer un compte">
+        </router-link>                  
     </div>
 
                   

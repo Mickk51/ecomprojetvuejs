@@ -1,20 +1,24 @@
 <template>
     <form id="form-connexion" action="">
-            <h2 class="form-titre">Connexion</h2>
-            <div class="separation"></div>
-                <div class="body-form">
-                    <div class="input-container">
-                        <label class="label-connexion" for="input-email">E-mail : </label>
+        <h2 class="form-titre">Connexion</h2>
+        <div class="separation"></div>
+        <div class="body-form">
+            <div class="input-container">
+                <label class="label-connexion" for="input-email">E-mail : </label>
+                    <div class="input-icon">
                         <input id="input-email" class="input" type="email" placeholder="Entrez votre adresse mail...">
                         <i class="fa-solid fa-user"></i>                    
                     </div>
-                    <div class="input-container">
-                        <label class="label-connexion" for="input-password">Mot de passe : </label>
+            </div>
+            <div class="input-container">
+                <label class="label-connexion" for="input-password">Mot de passe : </label>
+                    <div class="input-icon">
                         <input type="password" id="input-password" class="input" placeholder="Entre votre mot de passe...">
                         <i class="fa-solid fa-envelope"></i>
                     </div>
-                        <input id="btn-connexion" type="submit" value="Connexion">
-            </div>                    
+            </div>
+            <input id="btn-connexion" type="submit" value="Connexion">
+        </div>                    
     </form>
 </template>
 
@@ -44,24 +48,27 @@ export default {
     .body-form {
         display: flex;
         flex-direction: column;
+        margin: auto;
     }
     .input-container {
-        position: relative;
         display: flex;
         margin-top: 20px;
         flex-direction: column;
     }
     .input {
-        margin-top: 10px;
         padding: 10px 5px 10px 50px;
         border: 1px solid rgb(158, 158, 158);
         outline-color: #314f77;
         border-radius: 10px;
     }
+    .input-icon {
+        position: relative  ;
+    }
     i {
         position: absolute;
-        left: 15px;
-        top: 40px;
+        left: 0px;
+        top: 0px;
+        transform: translateY(100%) translateX(100%);
         color: #314f77;
     }
     #btn-connexion {

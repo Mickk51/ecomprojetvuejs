@@ -11,15 +11,16 @@
                     <router-link class="nav-link" aria-current="page" to="/" >Home</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="nav-link" aria-current="page" to="/Produits">Les produits</router-link>
+                    <router-link class="nav-link" aria-current="page" to="/items">Les produits</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="nav-link" aria-current="page" to="/About" >La marque</router-link>
+                    <router-link class="nav-link" aria-current="page" to="/about" >La marque</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="nav-link" aria-current="page" to="/About" >Contact</router-link>
+                    <router-link class="nav-link" aria-current="page" to="/about" >Contact</router-link>
                 </li>
             </ul>
+                <router-link to="/administration-page"><p>admin</p></router-link>
                 <router-link to="/connexion"><i class="fa-regular fa-user icon-connexion"></i></router-link>
             </div>
         </div>
